@@ -4,6 +4,7 @@
 
 Gobuster est un outil en ligne de commande utilisé lors des tests de pénétration pour découvrir des répertoires, fichiers, sous-domaines DNS ou autres ressources sur un serveur web en les devinant grâce à une liste de mots (*wordlist*). Il permet d'identifier des répertoires ou fichiers cachés qui ne sont pas directement accessibles via les liens publics d’un site web.
 
+c'est à nous de chercher ce fichier ou de rajouter des mots dans le fichier "wordlist.txt"
 ---
 
 #### Exemple : Utilisation de Gobuster sur `watchseries.im`
@@ -14,7 +15,7 @@ J'ai utilisé Gobuster pour effectuer une énumération des répertoires sur le 
 
 #### La Commande :
 
-```bash
+```bash : dans un terminal 
 gobuster dir -u https://watchseries.im -w ~/Downloads/common.txt
 ```
 
